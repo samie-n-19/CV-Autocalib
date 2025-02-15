@@ -173,7 +173,7 @@ K_opt = np.array([[fx, 0, cx], [0, fy, cy], [0, 0, 1]])
 print("Optimized Camera Matrix (K):\n", K_opt)
 print("Optimized distortion parameters:\n", k1_opt, k2_opt)
 
-# Save the calibration results
+# Save the calibration results asd numpy arrays
 np.save("./Camera_params/calibration_matrix", K_opt)
 np.save("./Camera_params/distortion_coefficients", np.array([k1_opt, k2_opt]))
 
