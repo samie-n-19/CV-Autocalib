@@ -30,5 +30,6 @@ python3 Wrapper.py
 - Optimized camera matrix and distortion coefficients saved in `Camera_params/`
 - Rectified images stored in `Rectified_Imgs/`
 
+<img width="1318" height="1649" alt="image" src="https://github.com/user-attachments/assets/dd5203f2-7550-4ae1-b702-028d203facfd" />
 
 
